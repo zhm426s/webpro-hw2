@@ -74,9 +74,60 @@ main {
 
 .revcard {
     background: white;
+    padding: 2%;
     margin: 3% 0%;
+    height: 12em;
+    position: relative;
+
 }
 
 .icon {
-    height: 8px;
+    height: 12px;
+}
+
+.critic, .publication {
+    font-style: italic;
+}
+
+.tomato {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.critic {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.publication {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.review {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 90%
+}
+
+.rating {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+.stars {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.fullrev {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
