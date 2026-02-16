@@ -4,7 +4,7 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-p {
+span {
     font-size: 8pt;
 }
 
@@ -29,4 +29,24 @@ main {
     width: 800px;
     border: 4px solid #2d2d2d;
     border-radius: 12px;
+}
+
+#rating {
+    width: 350px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#ratingpercent {
+    font-size: 48pt;
+    color: #2d2d2d;
+    position: relative;
+    top: -125px;
+    left: 100px;
+    z-index: 2;
+}
+
+#bigtomato {
+    z-index: -2;
 }
