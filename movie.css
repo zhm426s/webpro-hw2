@@ -26,13 +26,21 @@ span {
 }
 
 main {
-    width: 800px;
+    width: 75%;
     border: 4px solid #2d2d2d;
     border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.rounded-shadow-border {
+    border-radius: 20px;
+    box-shadow: 0 0 5px #2d2d2d;
 }
 
 #rating {
-    width: 350px;
+    width: 300px;
     height: 100%;
     float: left;
     text-align: center;
@@ -49,4 +57,11 @@ main {
 
 #bigtomato {
     z-index: -2;
+}
+
+#reviews {
+    background: #e1d697;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
 }
