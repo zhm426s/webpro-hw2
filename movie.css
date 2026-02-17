@@ -135,8 +135,15 @@ main {
 #sidebar {
     display: inline-block;
     background: #a2b964;
-    width: 25%;
+    width: 15%;
     position: relative;
     left: 72.5%;
     bottom: 47rem;
+    padding: 0 5%;
+}
+
+dt, dl {
+    font-size: 8pt;
+    font-weight: bold;
+    margin: 3px 0;
 }
