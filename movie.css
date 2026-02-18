@@ -135,15 +135,34 @@ main {
 #sidebar {
     display: inline-block;
     background: #a2b964;
-    width: 15%;
+    width: 24%;
     position: relative;
     left: 72.5%;
     bottom: 47rem;
-    padding: 0 5%;
+    padding: 1%;
 }
 
-dt, dl {
-    font-size: 8pt;
-    font-weight: bold;
+.dl-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     margin: 3px 0;
+}
+
+dt, dd {
+    font-size: 8pt;
+    margin: 1px 0;
+}
+
+dt {
+    font-weight: bolder;
+    position: relative;
+}
+
+dd {
+    text-align: right;
+}
+
+h2 {
+    margin: 1% 0;
 }
