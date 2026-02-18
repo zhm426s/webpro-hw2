@@ -183,3 +183,11 @@ a:hover {
 a:visited {
     color: #511371;
 }
+
+footer {
+    background: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: 1% 0 0 0;
+}
