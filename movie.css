@@ -36,6 +36,7 @@ main {
     border-radius: 12px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 2%;
 }
 
@@ -45,28 +46,25 @@ main {
 }
 
 #rating {
-    width: 300px;
-    height: 100%;
-    float: left;
+    width: 10em;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #ratingpercent {
-    font-size: 48pt;
+    font-size: 3em;
     color: #2d2d2d;
     position: relative;
-    top: -125px;
-    left: 100px;
-    z-index: 2;
 }
 
 #bigtomato {
-    z-index: -2;
+    width: 6em;
 }
 
 #reviews {
     background: #e1d697;
-    width: 500px;
+    width: 30em;
     display: flex;
     justify-content: space-around;
     padding: 1.5%;
