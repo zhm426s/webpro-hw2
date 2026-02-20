@@ -49,8 +49,14 @@ main {
     width: 10em;
     text-align: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 2em;
+}
+
+#ratingtomato {
+    display: flex;
+    justify-content: center;
 }
 
 #ratingpercent {
@@ -61,6 +67,20 @@ main {
 
 #bigtomato {
     width: 6em;
+}
+
+.poster-card {
+    max-height: 50%;
+}
+
+.poster {
+    width: 80%;
+    margin: 10%;
+}
+
+.caption {
+    font-weight: bold;
+    margin: 1px;
 }
 
 #reviews {
