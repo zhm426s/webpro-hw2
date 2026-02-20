@@ -4,7 +4,7 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-span, a {
+span, a, p {
     font-size: 8pt;
 }
 
@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 2em;
+    padding: 1em;
 }
 
 #ratingtomato {
@@ -85,7 +85,8 @@ main {
 
 #reviews {
     background: #e1d697;
-    width: 35em;
+    width: 60%;
+    height: 95%;
     display: flex;
     justify-content: space-around;
     padding: 1.5%;
@@ -94,15 +95,15 @@ main {
 .revcolumn {
     width: 47%;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .revcard {
     background: white;
-    padding: 2%;
-    margin: 3% 0%;
-    height: 11em;
+    padding: 4%;
     position: relative;
-
+    margin: 3% 0;
 }
 
 .icon {
@@ -114,46 +115,39 @@ main {
 }
 
 .tomato {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    left: 5px;
+    top: 1px;
 }
 
 .critic {
-    position: absolute;
-    top: 10px;
-    left: 30px;
+    position: relative;
+    left: 5px;
 }
 
 .publication {
-    position: absolute;
-    top: 30px;
-    left: 10px;
+    position: relative;
+    left: 5px;
+    margin: 2px 0;
 }
 
 .review {
-    position: absolute;
-    top: 50px;
-    left: 10px;
+    position: relative;
+    left: 5px;
     width: 90%
 }
 
-.rating {
-    position: absolute;
-    bottom: 30px;
-    left: 10px;
-}
-
-.stars {
-    position: absolute;
-    bottom: 30px;
-    right: 10px;
+.ratingline {
+    position: relative;
+    left: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
 }
 
 .fullrev {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+    position: relative;
+    left: 5px;
 }
 
 #sidebar {
