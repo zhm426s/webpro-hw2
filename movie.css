@@ -134,7 +134,8 @@ main {
 .review {
     position: relative;
     left: 5px;
-    width: 90%
+    width: 90%;
+    font-weight: bold;
 }
 
 .ratingline {
