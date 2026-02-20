@@ -211,3 +211,11 @@ footer {
     color: white;
     font-size: 12pt;
 }
+
+#validators {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #cddecd;
+    padding: 1% 3%;
+}
