@@ -101,11 +101,17 @@ main {
 }
 
 .revcard {
-    background: white;
+    background-color: white;
     padding: 4%;
     height: 13em;
     position: relative;
     margin: 3% 0;
+    transition: background-color 2s, color 2s;
+}
+
+.revcard:hover {
+    background: black;
+    color: lightgreen;
 }
 
 .icon {
@@ -199,7 +205,7 @@ a:hover {
 }
 
 a:visited {
-    color: #511371;
+    color: #612381;
 }
 
 footer {
