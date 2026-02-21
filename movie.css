@@ -97,11 +97,13 @@ main {
     padding: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .revcard {
     background: white;
     padding: 4%;
+    height: 13em;
     position: relative;
     margin: 3% 0;
 }
