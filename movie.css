@@ -93,7 +93,6 @@ main {
 #reviews {
     background: #e1d697;
     width: 60%;
-    height: 95%;
     display: flex;
     justify-content: space-around;
     padding: 1.5%;
@@ -102,9 +101,8 @@ main {
 .revcolumn {
     width: 47%;
     padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: auto auto auto;
 }
 
 .revcard {
