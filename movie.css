@@ -76,6 +76,13 @@ main {
 .poster {
     width: 80%;
     margin: 10%;
+    transition: width 1s, border 1s, box-shadow 1s;
+}
+
+.poster:hover {
+    width: 85%;
+    border: 5px solid black;
+    box-shadow: 0 0 10px maroon;
 }
 
 .caption {
