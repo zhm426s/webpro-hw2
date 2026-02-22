@@ -2,6 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Tahoma, sans-serif;
+
+    --text-color: black;
+    --back-color: white;
+    --review-color: #e1d697;
+    --sidebar-color: #a2b964;
+    --link-color: maroon;
+    --foot-color: #2d2d2d;
+    --visited-color: #612381;
+    --rev-text-hover-color: lightgreen;
+    --validator-color: #cddecd;
 }
 
 span, a, p {
@@ -21,7 +31,7 @@ span, a, p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40pt;
     font-weight: bold;
-    color: white;
+    color: var(--back-color);
     margin: 0;
 }
 
@@ -32,7 +42,7 @@ main {
 
 .content {
     width: 66%;
-    border: 2px solid #2d2d2d;
+    border: 2px solid var(--foot-color);
     border-radius: 12px;
     display: flex;
     justify-content: space-around;
@@ -42,7 +52,7 @@ main {
 
 .rounded-shadow-border {
     border-radius: 20px;
-    box-shadow: 0 0 5px #2d2d2d;
+    box-shadow: 0 0 5px var(--foot-color);
 }
 
 #rating {
@@ -75,7 +85,7 @@ main {
 
 #ratingpercent {
     font-size: 3em;
-    color: #2d2d2d;
+    color: var(--foot-color);
     position: relative;
     animation-name: percentFade;
     animation-duration: 1s;
@@ -97,8 +107,8 @@ main {
 
 .poster:hover {
     width: 85%;
-    border: 5px solid black;
-    box-shadow: 0 0 10px maroon;
+    border: 5px solid var(--text-color);
+    box-shadow: 0 0 10px var(--link-color);
 }
 
 .caption {
@@ -107,7 +117,7 @@ main {
 }
 
 #reviews {
-    background: #e1d697;
+    background: var(--review-color);
     width: 60%;
     display: flex;
     justify-content: space-around;
@@ -122,7 +132,7 @@ main {
 }
 
 .revcard {
-    background-color: white;
+    background-color: var(--back-color);
     padding: 4%;
     height: 13em;
     position: relative;
@@ -131,8 +141,8 @@ main {
 }
 
 .revcard:hover {
-    background: black;
-    color: lightgreen;
+    background: var(--text-color);
+    color: var(--rev-text-hover-color);
 }
 
 .icon {
@@ -182,7 +192,7 @@ main {
 
 #sidebar {
     display: inline-block;
-    background: #a2b964;
+    background: var(--sidebar-color);
     width: 21%;
     padding: 3%;
 }
@@ -218,7 +228,7 @@ h2 {
 
 a:link {
     font-weight: bold;
-    color: maroon;
+    color: var(--link-color);
 }
 
 a:hover {
@@ -226,18 +236,18 @@ a:hover {
 }
 
 a:visited {
-    color: #612381;
+    color: var(--visited-color);
 }
 
 footer {
-    background: #2d2d2d;
+    background: var(--foot-color);
     text-align: center;
     padding: 1%;
     margin: 1% 0 0 0;
 }
 
 .counttext {
-    color: white;
+    color: var(--back-color);
     font-size: 12pt;
 }
 
@@ -245,6 +255,6 @@ footer {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    background: #cddecd;
+    background: var(--validator-color);
     padding: 1% 3%;
 }
