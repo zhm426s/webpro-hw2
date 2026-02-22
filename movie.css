@@ -13,7 +13,7 @@ body {
     --rev-text-hover-color: lightgreen;
     --validator-color: #cddecd;
 
-    background: var(--back-color)
+    background: var(--back-color);
 }
 
 body.dark {
@@ -274,4 +274,19 @@ footer {
     right: 10px;
     background: var(--validator-color);
     padding: 1% 3%;
+}
+
+button {
+    background: var(--text-color);
+    color: var(--rev-text-hover-color);
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 1% 3%;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+    border: 0 solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 5px var(--foot-color); 
 }
