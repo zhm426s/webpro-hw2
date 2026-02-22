@@ -12,6 +12,20 @@ body {
     --visited-color: #612381;
     --rev-text-hover-color: lightgreen;
     --validator-color: #cddecd;
+
+    background: var(--back-color)
+}
+
+body.dark-theme {
+    --text-color: white;
+    --back-color: black;
+    --review-color: #4a4420;
+    --sidebar-color: #2e3a0e;
+    --link-color: pink;
+    --foot-color: #cdcdcd;
+    --visited-color: #8a52a5;
+    --rev-text-hover-color: darkgreen;
+    --validator-color: #373d37;
 }
 
 span, a, p {
@@ -31,7 +45,7 @@ span, a, p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40pt;
     font-weight: bold;
-    color: var(--back-color);
+    color: white;
     margin: 0;
 }
 
@@ -114,6 +128,7 @@ main {
 .caption {
     font-weight: bold;
     margin: 1px;
+    color: var(--text-color);
 }
 
 #reviews {
@@ -133,6 +148,7 @@ main {
 
 .revcard {
     background-color: var(--back-color);
+    color: var(--text-color);
     padding: 4%;
     height: 13em;
     position: relative;
@@ -193,6 +209,7 @@ main {
 #sidebar {
     display: inline-block;
     background: var(--sidebar-color);
+    color: var(--text-color);
     width: 21%;
     padding: 3%;
 }
