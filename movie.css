@@ -16,7 +16,7 @@ body {
     background: var(--back-color)
 }
 
-body.dark-theme {
+body.dark {
     --text-color: white;
     --back-color: black;
     --review-color: #4a4420;
