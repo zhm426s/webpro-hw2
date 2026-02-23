@@ -12,8 +12,9 @@ body {
     --visited-color: #612381;
     --rev-text-hover-color: lightgreen;
     --validator-color: #cddecd;
+    --body-back: url(images/background.png);
 
-    background: var(--back-color);
+    background: var(--body-back);
 }
 
 body.dark {
@@ -26,6 +27,7 @@ body.dark {
     --visited-color: #8a52a5;
     --rev-text-hover-color: darkgreen;
     --validator-color: #373d37;
+    --body-back: black;
 }
 
 span, a, p {
